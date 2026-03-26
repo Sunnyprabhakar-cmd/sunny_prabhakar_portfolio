@@ -38,7 +38,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop" alt="Sunny Prabhakar" className="profile-img" />
+        <img src="/images/profile.jpg" alt="Sunny Prabhakar" className="profile-img" />
       </div>
     </section>
   )
