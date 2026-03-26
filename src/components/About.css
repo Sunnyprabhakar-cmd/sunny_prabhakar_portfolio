@@ -1,0 +1,29 @@
+.panel {
+  margin-top: 1.2rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: clamp(1rem, 2.2vw, 1.8rem);
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.panel.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+}
+
+.about p {
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}

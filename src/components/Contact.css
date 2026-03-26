@@ -1,0 +1,33 @@
+.contact h2 {
+  max-width: 20ch;
+  margin-bottom: 0.6rem;
+}
+
+.contact > p {
+  color: var(--muted);
+  margin-bottom: 1.6rem;
+}
+
+.contact-links {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--accent);
+  font-weight: 700;
+  transition: all 0.3s ease;
+  padding: 0.6rem 0;
+}
+
+.contact-item:hover {
+  gap: 1rem;
+  transform: translateX(4px);
+}
+
+.contact-item svg {
+  flex-shrink: 0;
+}

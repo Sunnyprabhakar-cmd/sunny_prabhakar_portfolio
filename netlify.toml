@@ -1,0 +1,7 @@
+{
+  "name": "Sunny Prabhakar Portfolio",
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "framework": "react",
+  "nodeVersion": "18"
+}
